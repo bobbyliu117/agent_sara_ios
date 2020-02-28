@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00D2E712408DE1A003A94A3 /* Agent_SaraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D2E702408DE1A003A94A3 /* Agent_SaraTests.m */; };
+		B00D2E7A2408DE61003A94A3 /* TextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D2E792408DE61003A94A3 /* TextUtils.m */; };
+		B00D2E7B2408DE61003A94A3 /* TextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D2E792408DE61003A94A3 /* TextUtils.m */; };
+		B00D2E7F2408EE44003A94A3 /* TimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B00D2E7E2408EE44003A94A3 /* TimeUtils.m */; };
+		B0910D5C2404FA0900705537 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0910D5B2404FA0900705537 /* Customer.m */; };
+		B0910D5F2404FDBC00705537 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0910D5E2404FDBC00705537 /* DataManager.m */; };
+		B0910D6424050B2D00705537 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0910D6224050B2D00705537 /* MenuViewController.m */; };
+		B0910D6524050B2D00705537 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0910D6324050B2D00705537 /* MenuViewController.xib */; };
+		B0910D6A24050CA600705537 /* CustomersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0910D6824050CA600705537 /* CustomersViewController.m */; };
+		B0910D6B24050CA600705537 /* CustomersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0910D6924050CA600705537 /* CustomersViewController.xib */; };
+		B0910D722406FF7000705537 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0910D712406FF7000705537 /* Security.framework */; };
+		B0910D752407076D00705537 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B0910D732407076D00705537 /* SSKeychain.m */; };
+		B0910D7724070AA500705537 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0910D7624070AA500705537 /* GoogleService-Info.plist */; };
+		B0910D852407581000705537 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0910D842407581000705537 /* ViewUtils.m */; };
+		B0F55312240346D30091B3C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F55311240346D30091B3C1 /* AppDelegate.m */; };
+		B0F55318240346D30091B3C1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F55317240346D30091B3C1 /* MainViewController.m */; };
+		B0F5531D240346D40091B3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F5531C240346D40091B3C1 /* Assets.xcassets */; };
+		B0F55320240346D40091B3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F5531E240346D40091B3C1 /* LaunchScreen.storyboard */; };
+		B0F55323240346D40091B3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F55322240346D40091B3C1 /* main.m */; };
+		B0F5532C2403496E0091B3C1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F5532B2403496E0091B3C1 /* MainViewController.xib */; };
+		E3E754A3EAC38357E1E67369 /* Pods_agent_sara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FD5C955AB859ADD363E94A /* Pods_agent_sara.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B00D2E732408DE1A003A94A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F55305240346D30091B3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0F5530C240346D30091B3C1;
+			remoteInfo = "agent-sara";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FD5C955AB859ADD363E94A /* Pods_agent_sara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agent_sara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AB9C5E0418710AD01D515A /* Pods-agent-sara.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agent-sara.debug.xcconfig"; path = "Target Support Files/Pods-agent-sara/Pods-agent-sara.debug.xcconfig"; sourceTree = "<group>"; };
+		4BAAF440E095CC43FEF567B3 /* Pods-agent-sara.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agent-sara.release.xcconfig"; path = "Target Support Files/Pods-agent-sara/Pods-agent-sara.release.xcconfig"; sourceTree = "<group>"; };
+		B00D2E6E2408DE1A003A94A3 /* Agent SaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agent SaraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00D2E702408DE1A003A94A3 /* Agent_SaraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Agent_SaraTests.m; sourceTree = "<group>"; };
+		B00D2E722408DE1A003A94A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00D2E782408DE61003A94A3 /* TextUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextUtils.h; sourceTree = "<group>"; };
+		B00D2E792408DE61003A94A3 /* TextUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextUtils.m; sourceTree = "<group>"; };
+		B00D2E7D2408EE44003A94A3 /* TimeUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeUtils.h; sourceTree = "<group>"; };
+		B00D2E7E2408EE44003A94A3 /* TimeUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeUtils.m; sourceTree = "<group>"; };
+		B0910D5A2404FA0900705537 /* Customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		B0910D5B2404FA0900705537 /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		B0910D5D2404FDBC00705537 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		B0910D5E2404FDBC00705537 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		B0910D6124050B2D00705537 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		B0910D6224050B2D00705537 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		B0910D6324050B2D00705537 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		B0910D6724050CA600705537 /* CustomersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomersViewController.h; sourceTree = "<group>"; };
+		B0910D6824050CA600705537 /* CustomersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomersViewController.m; sourceTree = "<group>"; };
+		B0910D6924050CA600705537 /* CustomersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomersViewController.xib; sourceTree = "<group>"; };
+		B0910D712406FF7000705537 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B0910D732407076D00705537 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		B0910D742407076D00705537 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		B0910D7624070AA500705537 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0910D832407581000705537 /* ViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		B0910D842407581000705537 /* ViewUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		B0910D862407591900705537 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B0F5530D240346D30091B3C1 /* Agent Sara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agent Sara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F55310240346D30091B3C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0F55311240346D30091B3C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0F55316240346D30091B3C1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B0F55317240346D30091B3C1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B0F5531C240346D40091B3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0F5531F240346D40091B3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0F55321240346D40091B3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F55322240346D40091B3C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0F5532B2403496E0091B3C1 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00D2E6B2408DE1A003A94A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F5530A240346D30091B3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0910D722406FF7000705537 /* Security.framework in Frameworks */,
+				E3E754A3EAC38357E1E67369 /* Pods_agent_sara.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00D2E6F2408DE1A003A94A3 /* Agent SaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00D2E702408DE1A003A94A3 /* Agent_SaraTests.m */,
+				B00D2E722408DE1A003A94A3 /* Info.plist */,
+			);
+			path = "Agent SaraTests";
+			sourceTree = "<group>";
+		};
+		B0910D582404F90900705537 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D5D2404FDBC00705537 /* DataManager.h */,
+				B0910D5E2404FDBC00705537 /* DataManager.m */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		B0910D592404F91C00705537 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D5A2404FA0900705537 /* Customer.h */,
+				B0910D5B2404FA0900705537 /* Customer.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B0910D6024050AF900705537 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D6124050B2D00705537 /* MenuViewController.h */,
+				B0910D6224050B2D00705537 /* MenuViewController.m */,
+				B0910D6324050B2D00705537 /* MenuViewController.xib */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		B0910D6624050C7600705537 /* customers */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D6724050CA600705537 /* CustomersViewController.h */,
+				B0910D6824050CA600705537 /* CustomersViewController.m */,
+				B0910D6924050CA600705537 /* CustomersViewController.xib */,
+			);
+			path = customers;
+			sourceTree = "<group>";
+		};
+		B0910D6C2406FF3E00705537 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D742407076D00705537 /* SSKeychain.h */,
+				B0910D732407076D00705537 /* SSKeychain.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B0910D702406FF7000705537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D712406FF7000705537 /* Security.framework */,
+				30FD5C955AB859ADD363E94A /* Pods_agent_sara.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0910D81240757EC00705537 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D832407581000705537 /* ViewUtils.h */,
+				B0910D842407581000705537 /* ViewUtils.m */,
+				B00D2E782408DE61003A94A3 /* TextUtils.h */,
+				B00D2E792408DE61003A94A3 /* TextUtils.m */,
+				B00D2E7D2408EE44003A94A3 /* TimeUtils.h */,
+				B00D2E7E2408EE44003A94A3 /* TimeUtils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		B0F55304240346D30091B3C1 = {
+			isa = PBXGroup;
+			children = (
+				B0F5530F240346D30091B3C1 /* agent-sara */,
+				B00D2E6F2408DE1A003A94A3 /* Agent SaraTests */,
+				B0F5530E240346D30091B3C1 /* Products */,
+				B0910D702406FF7000705537 /* Frameworks */,
+				B27D8831F33F352B30324C10 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B0F5530E240346D30091B3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0F5530D240346D30091B3C1 /* Agent Sara.app */,
+				B00D2E6E2408DE1A003A94A3 /* Agent SaraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0F5530F240346D30091B3C1 /* agent-sara */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D81240757EC00705537 /* utils */,
+				B0910D6C2406FF3E00705537 /* lib */,
+				B0910D592404F91C00705537 /* models */,
+				B0910D582404F90900705537 /* managers */,
+				B0F55329240349140091B3C1 /* viewControllers */,
+				B0F55310240346D30091B3C1 /* AppDelegate.h */,
+				B0F55311240346D30091B3C1 /* AppDelegate.m */,
+				B0F5531C240346D40091B3C1 /* Assets.xcassets */,
+				B0F5531E240346D40091B3C1 /* LaunchScreen.storyboard */,
+				B0910D7624070AA500705537 /* GoogleService-Info.plist */,
+				B0F55321240346D40091B3C1 /* Info.plist */,
+				B0F55322240346D40091B3C1 /* main.m */,
+				B0910D862407591900705537 /* PrefixHeader.pch */,
+			);
+			path = "agent-sara";
+			sourceTree = "<group>";
+		};
+		B0F55329240349140091B3C1 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0910D6624050C7600705537 /* customers */,
+				B0910D6024050AF900705537 /* menu */,
+				B0F5532A240349290091B3C1 /* main */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		B0F5532A240349290091B3C1 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B0F55316240346D30091B3C1 /* MainViewController.h */,
+				B0F55317240346D30091B3C1 /* MainViewController.m */,
+				B0F5532B2403496E0091B3C1 /* MainViewController.xib */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		B27D8831F33F352B30324C10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43AB9C5E0418710AD01D515A /* Pods-agent-sara.debug.xcconfig */,
+				4BAAF440E095CC43FEF567B3 /* Pods-agent-sara.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00D2E6D2408DE1A003A94A3 /* Agent SaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00D2E772408DE1A003A94A3 /* Build configuration list for PBXNativeTarget "Agent SaraTests" */;
+			buildPhases = (
+				B00D2E6A2408DE1A003A94A3 /* Sources */,
+				B00D2E6B2408DE1A003A94A3 /* Frameworks */,
+				B00D2E6C2408DE1A003A94A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00D2E742408DE1A003A94A3 /* PBXTargetDependency */,
+			);
+			name = "Agent SaraTests";
+			productName = "Agent SaraTests";
+			productReference = B00D2E6E2408DE1A003A94A3 /* Agent SaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0F5530C240346D30091B3C1 /* agent-sara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F55326240346D40091B3C1 /* Build configuration list for PBXNativeTarget "agent-sara" */;
+			buildPhases = (
+				D17965DA6F9C12AF7C499842 /* [CP] Check Pods Manifest.lock */,
+				B0F55309240346D30091B3C1 /* Sources */,
+				B0F5530A240346D30091B3C1 /* Frameworks */,
+				B0F5530B240346D30091B3C1 /* Resources */,
+				3503DA662E5569AEA914F196 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "agent-sara";
+			productName = "agent-sara";
+			productReference = B0F5530D240346D30091B3C1 /* Agent Sara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0F55305240346D30091B3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Chang Liu";
+				TargetAttributes = {
+					B00D2E6D2408DE1A003A94A3 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B0F5530C240346D30091B3C1;
+					};
+					B0F5530C240346D30091B3C1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = B0F55308240346D30091B3C1 /* Build configuration list for PBXProject "agent-sara" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0F55304240346D30091B3C1;
+			productRefGroup = B0F5530E240346D30091B3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0F5530C240346D30091B3C1 /* agent-sara */,
+				B00D2E6D2408DE1A003A94A3 /* Agent SaraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00D2E6C2408DE1A003A94A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F5530B240346D30091B3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0910D6B24050CA600705537 /* CustomersViewController.xib in Resources */,
+				B0F55320240346D40091B3C1 /* LaunchScreen.storyboard in Resources */,
+				B0F5532C2403496E0091B3C1 /* MainViewController.xib in Resources */,
+				B0F5531D240346D40091B3C1 /* Assets.xcassets in Resources */,
+				B0910D6524050B2D00705537 /* MenuViewController.xib in Resources */,
+				B0910D7724070AA500705537 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3503DA662E5569AEA914F196 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-agent-sara/Pods-agent-sara-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-agent-sara/Pods-agent-sara-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agent-sara/Pods-agent-sara-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D17965DA6F9C12AF7C499842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-agent-sara-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00D2E6A2408DE1A003A94A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00D2E7B2408DE61003A94A3 /* TextUtils.m in Sources */,
+				B00D2E712408DE1A003A94A3 /* Agent_SaraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F55309240346D30091B3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0910D852407581000705537 /* ViewUtils.m in Sources */,
+				B0F55318240346D30091B3C1 /* MainViewController.m in Sources */,
+				B00D2E7F2408EE44003A94A3 /* TimeUtils.m in Sources */,
+				B0910D752407076D00705537 /* SSKeychain.m in Sources */,
+				B0910D6A24050CA600705537 /* CustomersViewController.m in Sources */,
+				B0910D6424050B2D00705537 /* MenuViewController.m in Sources */,
+				B0910D5F2404FDBC00705537 /* DataManager.m in Sources */,
+				B00D2E7A2408DE61003A94A3 /* TextUtils.m in Sources */,
+				B0F55312240346D30091B3C1 /* AppDelegate.m in Sources */,
+				B0F55323240346D40091B3C1 /* main.m in Sources */,
+				B0910D5C2404FA0900705537 /* Customer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00D2E742408DE1A003A94A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0F5530C240346D30091B3C1 /* agent-sara */;
+			targetProxy = B00D2E732408DE1A003A94A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0F5531E240346D40091B3C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F5531F240346D40091B3C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00D2E752408DE1A003A94A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M4S86FE42;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agent-sara/PrefixHeader.pch";
+				INFOPLIST_FILE = "Agent SaraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.misocode.Agent-SaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agent Sara.app/Agent Sara";
+			};
+			name = Debug;
+		};
+		B00D2E762408DE1A003A94A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M4S86FE42;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks\n\n$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agent-sara/PrefixHeader.pch";
+				INFOPLIST_FILE = "Agent SaraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.misocode.Agent-SaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agent Sara.app/Agent Sara";
+			};
+			name = Release;
+		};
+		B0F55324240346D40091B3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0F55325240346D40091B3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0F55327240346D40091B3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AB9C5E0418710AD01D515A /* Pods-agent-sara.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M4S86FE42;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agent-sara/PrefixHeader.pch";
+				INFOPLIST_FILE = "agent-sara/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.misocode.agent-sara";
+				PRODUCT_NAME = "Agent Sara";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0F55328240346D40091B3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BAAF440E095CC43FEF567B3 /* Pods-agent-sara.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8M4S86FE42;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "agent-sara/PrefixHeader.pch";
+				INFOPLIST_FILE = "agent-sara/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.misocode.agent-sara";
+				PRODUCT_NAME = "Agent Sara";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00D2E772408DE1A003A94A3 /* Build configuration list for PBXNativeTarget "Agent SaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00D2E752408DE1A003A94A3 /* Debug */,
+				B00D2E762408DE1A003A94A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F55308240346D30091B3C1 /* Build configuration list for PBXProject "agent-sara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F55324240346D40091B3C1 /* Debug */,
+				B0F55325240346D40091B3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F55326240346D40091B3C1 /* Build configuration list for PBXNativeTarget "agent-sara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0F55327240346D40091B3C1 /* Debug */,
+				B0F55328240346D40091B3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0F55305240346D30091B3C1 /* Project object */;
+}
